@@ -4,7 +4,7 @@ Para instalar en un environment nuevo:
 
 ```
 conda create -n PeopleTracker
-conda install -n PeopleTracker python
+conda install -n PeopleTracker python=3.10
 conda activate PeopleTracker
 pip install -r requirements.txt
 git clone https://github.com/mikel-brostrom/yolo_tracking.git
