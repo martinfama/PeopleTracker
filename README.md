@@ -7,6 +7,9 @@ conda create -n PeopleTracker
 conda install -n PeopleTracker python
 conda activate PeopleTracker
 pip install -r requirements.txt
+git clone https://github.com/mikel-brostrom/yolo_tracking.git
+cd yolo_tracking
+pip install -v -e .
 ```
 
 El código está organizado de la siguiente manera:
