@@ -1,5 +1,14 @@
 # PeopleTracker
 
+Para instalar en un environment nuevo:
+
+```
+conda create -n PeopleTracker
+conda install -n PeopleTracker python=3.10
+conda activate PeopleTracker
+pip install -r requirements.txt
+```
+
 El código está organizado de la siguiente manera:
 .  
 ├── csrt_example.py  

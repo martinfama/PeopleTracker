@@ -25,7 +25,7 @@ parser.add_argument('--videopath', help='path to video', default=0)
 parser.add_argument('--outpath', help='path to output video', default=None)
 parser.add_argument('--is_img_folder', help='whether the video is a folder of images', action='store_true')
 parser.add_argument('--groundtruth', help='path to ground truth file', default=None)
-parser.add_argument('--detector', help='detector to use', choices=['hog', 'yolo'] + cv_tracker_types, default='hog')
+parser.add_argument('--detector', help='detector to use', choices=['hog', 'yolo'], default='hog')
 parser.add_argument('--tracker', help='tracker to use', choices=['CSRT', 'DeepSort', 'ByteTracker'], default='CSRT')
 
 args = parser.parse_args()
