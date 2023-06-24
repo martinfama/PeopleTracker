@@ -4,7 +4,7 @@ Para instalar en un environment nuevo:
 
 ```
 conda create -n PeopleTracker
-conda install -n PeopleTracker python=3.10
+conda install -n PeopleTracker python
 conda activate PeopleTracker
 pip install -r requirements.txt
 ```
